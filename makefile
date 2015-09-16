@@ -29,7 +29,7 @@ LDIR =./lib
 
 # CUDA Paths
 ifeq ($(CUDA),1) 
-	CUDA_INSTALL_PATH ?= /usr/local/cuda
+	CUDA_INSTALL_PATH ?= /usr
 	ifdef cuda-install
 		CUDA_INSTALL_PATH := $(cuda-install)
 	endif
